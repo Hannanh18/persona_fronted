@@ -1,0 +1,40 @@
+:local(.root) {
+  text-align: center;
+  margin: 1px 0 0;
+  background: #333;
+  min-height: 200px;
+}
+
+:local(.link) {
+  display: inline-block;
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: 1em; /* ~18px */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:local(.link,)
+:local(.link:active,)
+:local(.link:visited) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:local(.link:hover) {
+  color: rgba(255, 255, 255, 1);
+}
+
+:local(.highlight) {
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+:local(.highlight:hover) {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+:local(.spacer) {
+  color: rgba(255, 255, 255, 0.3);
+}

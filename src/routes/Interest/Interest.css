@@ -1,0 +1,29 @@
+:local(.root) {
+  background: #333;
+  margin: 1px 0 0;
+  color: #fff;
+  min-height: 200px;
+}
+
+:local(.container) {
+  margin: 0 auto;
+  padding: 1px 0 0;
+  max-width: var(--max-content-width);
+  text-align: center;
+}
+
+:local(.title) {
+  padding: 3px 8px;
+  font-size: 1em;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(175, 168, 168);
+}
+
+th,
+td {
+  padding: 10px;
+}
