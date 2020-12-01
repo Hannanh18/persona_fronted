@@ -1,0 +1,25 @@
+{
+    "url": "/api",
+    "apis": [
+        {
+            "url": "/demographics",
+            "method": "get",
+            "response": "demographics_response_200"
+        },
+        {
+            "url": "/credits",
+            "method": "get",
+            "response": "credits_response_200"
+        },
+        {
+            "url": "/consume",
+            "method": "get",
+            "response": "consume_response_200"
+        },
+        {
+            "url": "/intresets",
+            "method": "get",
+            "response": "interests_response_200"
+        }
+    ]
+}
